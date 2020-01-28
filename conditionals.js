@@ -25,3 +25,24 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+//logical operators: &&, ||, !
+
+// && AND
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && >18) {
+  console.log("You are eligible to vote.");
+}
+
+// || OR
+if (temperature > -40 || temperature >40) {
+  console.log("Maybe going outside isn't such a great idea...");
+}
+
+// ! NOT
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
+
