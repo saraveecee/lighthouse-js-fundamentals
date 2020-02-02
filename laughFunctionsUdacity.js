@@ -14,3 +14,4 @@ var laugh = function(num) {
 }
 
 console.log(laugh(10));
+
